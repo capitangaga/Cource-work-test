@@ -7,6 +7,7 @@ namespace IRemote
 		public IRemotePage()
 		{
 			InitializeComponent();
+
 		}
 	}
 }
