@@ -1,0 +1,16 @@
+/Users/kirillgolowko/Repos/cw_1/IRemote/IRemote/obj/Debug/.NETPortable,Version=v4.5,Profile=Profile259.AssemblyAttribute.cs
+/Users/kirillgolowko/Repos/cw_1/IRemote/IRemote/obj/Debug/IRemote.App.xaml
+/Users/kirillgolowko/Repos/cw_1/IRemote/IRemote/obj/Debug/IRemote.IRemotePage.xaml
+/Users/kirillgolowko/Repos/cw_1/IRemote/IRemote/obj/Debug/IRemote.App.xaml.g.cs
+/Users/kirillgolowko/Repos/cw_1/IRemote/IRemote/obj/Debug/IRemote.IRemotePage.xaml.g.cs
+/Users/kirillgolowko/Repos/cw_1/IRemote/IRemote/bin/Debug/IRemote.dll.mdb
+/Users/kirillgolowko/Repos/cw_1/IRemote/IRemote/bin/Debug/IRemote.dll
+/Users/kirillgolowko/Repos/cw_1/IRemote/IRemote/obj/Debug/IRemote.dll
+/Users/kirillgolowko/Repos/cw_1/IRemote/IRemote/obj/Debug/IRemote.dll.mdb
+/Users/kirillgolowko/Repos/cw_1/IRemote/IRemote/bin/Debug/Xamarin.Forms.Core.dll
+/Users/kirillgolowko/Repos/cw_1/IRemote/IRemote/bin/Debug/Xamarin.Forms.Platform.dll
+/Users/kirillgolowko/Repos/cw_1/IRemote/IRemote/bin/Debug/Xamarin.Forms.Xaml.dll
+/Users/kirillgolowko/Repos/cw_1/IRemote/IRemote/bin/Debug/SQLitePCLRaw.core.dll
+/Users/kirillgolowko/Repos/cw_1/IRemote/IRemote/bin/Debug/SQLitePCLRaw.batteries_green.dll
+/Users/kirillgolowko/Repos/cw_1/IRemote/IRemote/bin/Debug/SQLitePCLRaw.batteries_v2.dll
+/Users/kirillgolowko/Repos/cw_1/IRemote/IRemote/bin/Debug/SQLite-net.dll
