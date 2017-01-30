@@ -14,3 +14,7 @@
 /Users/kirillgolowko/Repos/cw_1/IRemote/IRemote/bin/Debug/SQLitePCLRaw.batteries_green.dll
 /Users/kirillgolowko/Repos/cw_1/IRemote/IRemote/bin/Debug/SQLitePCLRaw.batteries_v2.dll
 /Users/kirillgolowko/Repos/cw_1/IRemote/IRemote/bin/Debug/SQLite-net.dll
+/Users/kirillgolowko/Repos/cw_1/IRemote/IRemote/obj/Debug/IRemote.Pages.AddNewPage.xaml
+/Users/kirillgolowko/Repos/cw_1/IRemote/IRemote/obj/Debug/IRemote.Pages.AddNewPage.xaml.g.cs
+/Users/kirillgolowko/Repos/cw_1/IRemote/IRemote/obj/Debug/IRemote.Pages.ConnectionPage.xaml
+/Users/kirillgolowko/Repos/cw_1/IRemote/IRemote/obj/Debug/IRemote.Pages.ConnectionPage.xaml.g.cs

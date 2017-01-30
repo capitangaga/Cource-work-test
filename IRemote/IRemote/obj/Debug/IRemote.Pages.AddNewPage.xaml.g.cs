@@ -14,19 +14,11 @@ namespace IRemote {
     using Xamarin.Forms.Xaml;
     
     
-    public partial class IRemotePage : global::Xamarin.Forms.ContentPage {
-        
-        [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
-        private global::Xamarin.Forms.Label Lab;
-        
-        [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
-        private global::Xamarin.Forms.ListView RemotesList;
+    public partial class AddNewPage : global::Xamarin.Forms.ContentPage {
         
         [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
         private void InitializeComponent() {
-            this.LoadFromXaml(typeof(IRemotePage));
-            Lab = this.FindByName <global::Xamarin.Forms.Label>("Lab");
-            RemotesList = this.FindByName <global::Xamarin.Forms.ListView>("RemotesList");
+            this.LoadFromXaml(typeof(AddNewPage));
         }
     }
 }

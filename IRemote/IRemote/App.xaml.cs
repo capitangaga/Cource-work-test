@@ -2,6 +2,7 @@
 
 namespace IRemote
 {
+
 	public partial class App : Application
 	{
 		public App()
@@ -22,6 +23,8 @@ namespace IRemote
 			MainPage = navigateTo;
 
 		}
+
+
 
 		protected override void OnStart()
 		{
