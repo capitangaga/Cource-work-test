@@ -5,6 +5,8 @@ namespace IRemote
 
 	public partial class App : Application
 	{
+		static ConnectionToIR ircon;
+
 		public App()
 		{
 			InitializeComponent();
@@ -24,7 +26,17 @@ namespace IRemote
 
 		}
 
-
+		public static ConnectionToIR IRconnetion
+		{
+			get
+			{
+				if (ircon == null)
+				{
+					ircon = new ConnectionToIR();
+				}
+				return ircon;
+			}
+		}
 
 		protected override void OnStart()
 		{
