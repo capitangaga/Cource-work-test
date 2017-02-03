@@ -18,3 +18,5 @@
 /Users/kirillgolowko/Repos/cw_1/IRemote/IRemote/obj/Debug/IRemote.Pages.AddNewPage.xaml.g.cs
 /Users/kirillgolowko/Repos/cw_1/IRemote/IRemote/obj/Debug/IRemote.Pages.ConnectionPage.xaml
 /Users/kirillgolowko/Repos/cw_1/IRemote/IRemote/obj/Debug/IRemote.Pages.ConnectionPage.xaml.g.cs
+/Users/kirillgolowko/Repos/cw_1/IRemote/IRemote/obj/Debug/IRemote.Pages.IRemotePage.xaml
+/Users/kirillgolowko/Repos/cw_1/IRemote/IRemote/obj/Debug/IRemote.Pages.IRemotePage.xaml.g.cs

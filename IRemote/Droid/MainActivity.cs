@@ -21,9 +21,19 @@ namespace IRemote.Droid
 			base.OnCreate(bundle);
 
 			global::Xamarin.Forms.Forms.Init(this, bundle);
+			_mainContext = this;
 
 			LoadApplication(new App());
 
 		}
+		/// <summary>
+		/// private field to save Android context for my Activity
+		/// </summary>
+		static Context _mainContext;
+		/// <summary>
+		/// Returns context to native methods which needs it
+		/// </summary>
+		/// <value>The main context</value>
+		public static Context MainContext { get { return _mainContext; } }
 	}
 }

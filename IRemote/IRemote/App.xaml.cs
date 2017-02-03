@@ -5,8 +5,9 @@ namespace IRemote
 
 	public partial class App : Application
 	{
-		static ConnectionToIR ircon;
+		static IBlueConnection _con;
 
+		static IMakeToast _toastMaker;
 		public App()
 		{
 			InitializeComponent();
@@ -26,15 +27,26 @@ namespace IRemote
 
 		}
 
-		public static ConnectionToIR IRconnetion
+		public static IBlueConnection BlueCon
 		{
 			get
 			{
-				if (ircon == null)
+				if (_con == null)
 				{
-					ircon = new ConnectionToIR();
+					_con = DependencyService.Get<IBlueConnection>();
 				}
-				return ircon;
+				return _con;
+			}
+		}
+		public static IMakeToast ToastMaker
+		{
+			get
+			{
+				if (_toastMaker == null)
+				{
+					_toastMaker = DependencyService.Get<IMakeToast>();
+				}
+				return _toastMaker;
 			}
 		}
 

@@ -1,21 +1,16 @@
 ﻿<Properties StartupConfiguration="{32449358-AD42-463D-B44C-87AA3FF14ACE}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="IRemote/Pages/ConnectionPage.xaml">
+  <MonoDevelop.Ide.Workbench ActiveDocument="IRemote/Pages/IRemotePage.xaml.cs">
     <Files>
+      <File FileName="IRemote/IForNative/IBlueConnection.cs" Line="1" Column="1" />
+      <File FileName="IRemote/IForNative/IMakeToast.cs" Line="17" Column="1" />
+      <File FileName="Droid/MakeToast.cs" Line="19" Column="18" />
+      <File FileName="Droid/BlueConnection.cs" Line="26" Column="1" />
+      <File FileName="Droid/MainActivity.cs" Line="34" Column="17" />
       <File FileName="IRemote/App.xaml" Line="6" Column="15" />
-      <File FileName="IRemote/App.xaml.cs" Line="16" Column="6" />
-      <File FileName="IRemote/IRemotePage.xaml.cs" Line="23" Column="81" />
-      <File FileName="IRemote/packages.config" Line="1" Column="1" />
-      <File FileName="IRemote/IRemotePage.xaml" Line="4" Column="51" />
-      <File FileName="Droid/packages.config" Line="1" Column="1" />
-      <File FileName="Droid/MainActivity.cs" Line="26" Column="4" />
-      <File FileName="IRemote/obj/Debug/IRemote.IRemotePage.xaml.g.cs" Line="1" Column="1" />
-      <File FileName="IRemote/RemoteButton.cs" Line="10" Column="4" />
-      <File FileName="IRemote/ConnectionToIR.cs" Line="2" Column="24" />
-      <File FileName="IRemote/Remote.cs" Line="7" Column="4" />
-      <File FileName="IRemote/Pages/AddNewPage.xaml" Line="2" Column="167" />
-      <File FileName="IRemote/Pages/AddNewPage.xaml.cs" Line="12" Column="26" />
-      <File FileName="IRemote/Pages/ConnectionPage.xaml" Line="4" Column="4" />
-      <File FileName="IRemote/Pages/ConnectionPage.xaml.cs" Line="1" Column="1" />
+      <File FileName="IRemote/App.xaml.cs" Line="40" Column="4" />
+      <File FileName="IRemote/Pages/ConnectionPage.xaml" Line="2" Column="167" />
+      <File FileName="IRemote/Pages/IRemotePage.xaml" Line="1" Column="1" />
+      <File FileName="IRemote/Pages/IRemotePage.xaml.cs" Line="12" Column="18" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
