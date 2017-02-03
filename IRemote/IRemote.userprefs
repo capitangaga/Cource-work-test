@@ -1,16 +1,17 @@
 ﻿<Properties StartupConfiguration="{32449358-AD42-463D-B44C-87AA3FF14ACE}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="IRemote/Pages/IRemotePage.xaml.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="IRemote/Pages/ConnectionPage.xaml">
     <Files>
-      <File FileName="IRemote/IForNative/IBlueConnection.cs" Line="1" Column="1" />
-      <File FileName="IRemote/IForNative/IMakeToast.cs" Line="17" Column="1" />
-      <File FileName="Droid/MakeToast.cs" Line="19" Column="18" />
-      <File FileName="Droid/BlueConnection.cs" Line="26" Column="1" />
-      <File FileName="Droid/MainActivity.cs" Line="34" Column="17" />
+      <File FileName="IRemote/IForNative/IBlueConnection.cs" Line="10" Column="2" />
+      <File FileName="IRemote/IForNative/IMakeToast.cs" Line="15" Column="49" />
+      <File FileName="Droid/MakeToast.cs" Line="5" Column="21" />
+      <File FileName="Droid/BlueConnection.cs" Line="25" Column="21" />
+      <File FileName="Droid/MainActivity.cs" Line="40" Column="1" />
       <File FileName="IRemote/App.xaml" Line="6" Column="15" />
-      <File FileName="IRemote/App.xaml.cs" Line="40" Column="4" />
-      <File FileName="IRemote/Pages/ConnectionPage.xaml" Line="2" Column="167" />
+      <File FileName="IRemote/App.xaml.cs" Line="47" Column="25" />
+      <File FileName="IRemote/Pages/ConnectionPage.xaml" Line="5" Column="3" />
       <File FileName="IRemote/Pages/IRemotePage.xaml" Line="1" Column="1" />
-      <File FileName="IRemote/Pages/IRemotePage.xaml.cs" Line="12" Column="18" />
+      <File FileName="IRemote/Pages/IRemotePage.xaml.cs" Line="33" Column="1" />
+      <File FileName="IRemote/Pages/AddNewPage.xaml" Line="2" Column="167" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />

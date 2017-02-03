@@ -22,7 +22,7 @@ namespace IRemote.Droid
 		}
 		public bool IsBluetoothOn
 		{
-			get { return false; }
+			get { return true; }
 		}
 
 	}
