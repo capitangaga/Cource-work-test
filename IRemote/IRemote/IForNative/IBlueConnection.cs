@@ -6,5 +6,6 @@ namespace IRemote
 	{
 		List<string> BoundedDevicesNames { get; }
 		bool IsBluetoothOn { get; }
+		int DeviceToWorkSetByNumber { get; set; }
 	}
 }

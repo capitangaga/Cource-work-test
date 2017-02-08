@@ -10,6 +10,7 @@ namespace IRemote
 		public ConnectionPage()
 		{
 			InitializeComponent();
+			Devices.ItemsSource = App.BlueCon.BoundedDevicesNames;
 		}
 	}
 }

@@ -24,6 +24,11 @@ namespace IRemote.Droid
 		{
 			get { return true; }
 		}
+		public int DeviceToWorkSetByNumber
+		{
+			get;
+			set;
+		}
 
 	}
 }
