@@ -7,6 +7,8 @@ namespace IRemote
 	{
 		static IBlueConnection _con;
 
+		static RemotesDatabase _database;
+
 		static IMakeToast _toastMaker;
 		public App()
 		{
@@ -19,11 +21,14 @@ namespace IRemote
 
 			//
 			//Создаем страницу навигации из главной страницы и указываем ей необходимые цвета
-			var navigateTo = new NavigationPage(new IRemotePage());
-			navigateTo.BarBackgroundColor = (Color)App.Current.Resources["primaryColor"];
-			navigateTo.BackgroundColor = (Color)App.Current.Resources["backgroundColor"];
+
+			var startfrom = new MainPage();
+
+
+
+
 			// передаем управление на главную страницу
-			MainPage = navigateTo;
+			MainPage = startfrom;
 
 		}
 
@@ -49,6 +54,20 @@ namespace IRemote
 				return _toastMaker;
 			}
 		}
+
+		public static RemotesDatabase Database
+		{
+			get
+			{
+				if (_database == null)
+				{
+					_database = new RemotesDatabase(DependencyService.Get<IDbFileProvider>().GetLocalFilePath("RemotesDatabase.db3"));
+				}
+				return _database;
+			}
+
+		}
+
 
 		protected override void OnStart()
 		{

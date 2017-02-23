@@ -15,20 +15,15 @@ namespace IRemote
 		/// <value>The identifier.</value>
 		public int ID { get; set; }
 		/// <summary>
-		/// Gets or sets the name of Remote
+		/// Gets or sets the Category of Remote
 		/// </summary>
-		/// <value>The name.</value>
-		public string Name { get; set; }
+		/// <value>The Category</value>
+		public string Category { get; set; }
 		/// <summary>
-		/// Gets or sets the string with keys commands.
+		/// Gets or sets the string with JSON Relation of Remote object
 		/// </summary>
 		/// <value>The keys.</value>
-		public string KeysCommands { get; set; }
-		/// <summary>
-		/// Gets or sets the string with keys textss.
-		/// </summary>
-		/// <value>The keys texts.</value>
-		public string KeysTexts { get; set; }
+		public string JSONRemote { get; set; }
 
 	}
 }

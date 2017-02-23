@@ -5,6 +5,9 @@ namespace IRemote
 	{
 		public Remote()
 		{
+
 		}
+		public string Category { get; set; }
+		public int ID { get; set; }
 	}
 }

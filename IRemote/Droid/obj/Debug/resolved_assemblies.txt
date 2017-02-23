@@ -51,3 +51,11 @@
 /Users/kirillgolowko/Repos/cw_1/IRemote/Droid/obj/Debug/android/assets/System.Text.RegularExpressions.dll
 /Users/kirillgolowko/Repos/cw_1/IRemote/Droid/obj/Debug/android/assets/System.Resources.ResourceManager.dll
 /Users/kirillgolowko/Repos/cw_1/IRemote/Droid/obj/Debug/android/assets/System.Diagnostics.Tools.dll
+/Users/kirillgolowko/Repos/cw_1/IRemote/Droid/obj/Debug/android/assets/Newtonsoft.Json.dll
+/Users/kirillgolowko/Repos/cw_1/IRemote/Droid/obj/Debug/android/assets/System.Xml.XDocument.dll
+/Users/kirillgolowko/Repos/cw_1/IRemote/Droid/obj/Debug/android/assets/System.Xml.Linq.dll
+/Users/kirillgolowko/Repos/cw_1/IRemote/Droid/obj/Debug/android/assets/System.Runtime.Serialization.Primitives.dll
+/Users/kirillgolowko/Repos/cw_1/IRemote/Droid/obj/Debug/android/assets/System.Text.Encoding.dll
+/Users/kirillgolowko/Repos/cw_1/IRemote/Droid/obj/Debug/android/assets/System.Text.Encoding.Extensions.dll
+/Users/kirillgolowko/Repos/cw_1/IRemote/Droid/obj/Debug/android/assets/Microsoft.CSharp.dll
+/Users/kirillgolowko/Repos/cw_1/IRemote/Droid/obj/Debug/android/assets/Mono.CSharp.dll

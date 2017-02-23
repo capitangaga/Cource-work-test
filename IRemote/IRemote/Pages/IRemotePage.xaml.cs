@@ -6,10 +6,11 @@ namespace IRemote
 {
 	public partial class IRemotePage : ContentPage
 	{
-
+		public int[] a { get; } = new int[] { 4, 3, 2 };
 		public IRemotePage()
 		{
 			InitializeComponent();
+
 		}
 		protected override void OnAppearing()
 		{
@@ -19,7 +20,7 @@ namespace IRemote
 		}
 		protected async void NewRemoteClicked(object sender, EventArgs e)
 		{
-			await Navigation.PushAsync(new AddNewPage { BindingContext = new Remote() });
+
 		}
 
 		protected async void ConnectClicked(object sender, EventArgs e)

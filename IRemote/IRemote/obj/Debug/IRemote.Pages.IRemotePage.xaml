@@ -3,8 +3,10 @@
 	<ContentPage.ToolbarItems>
 		<ToolbarItem Text="+" Clicked="NewRemoteClicked">
 		</ToolbarItem>
+		<!--
 		<ToolbarItem Text="Connect" Clicked="ConnectClicked">
 		</ToolbarItem>
+		 -->
 	</ContentPage.ToolbarItems>
 	<StackLayout>
 		<Label x:Name="Lab" Text="Select a remote:" VerticalOptions="Start" HorizontalOptions="Start" Margin="20,20,0,0" FontSize="18" />
