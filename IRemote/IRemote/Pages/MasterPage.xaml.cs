@@ -19,7 +19,7 @@ namespace IRemote
 			LogoView.BackgroundColor = (Color)App.Current.Resources["primaryColor"];
 
 			ConnectButton.Clicked += OnNavigation;
-
+			ShowAllButton.Clicked += OnNavigation;
 
 
 		}
@@ -36,6 +36,7 @@ namespace IRemote
 
 			if (sender == HelpButton && HelpButtonClicked != null)
 				HelpButtonClicked(this, EventArgs.Empty);
+
 			if (sender == ShowAllButton && ShowAllButtonClicked != null)
 				ShowAllButtonClicked(this, EventArgs.Empty);
 

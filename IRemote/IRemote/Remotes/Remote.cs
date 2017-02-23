@@ -7,6 +7,7 @@ namespace IRemote
 		{
 
 		}
+		public string Name { get; set; }
 		public string Category { get; set; }
 		public int ID { get; set; }
 	}

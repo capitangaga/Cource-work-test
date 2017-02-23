@@ -14,11 +14,17 @@ namespace IRemote
 			master = new MasterPage();
 			Master = master;
 			master.ConnectButtonClicked += OnConnectButtonClicked;
+			master.ShowAllButtonClicked += OnShowAllButtonClicked;
 		}
 
 		public void OnConnectButtonClicked(object sender, EventArgs e)
 		{
 			Detail = new NavigationPage(new ConnectionPage());
+			IsPresented = false;
+		}
+		public void OnShowAllButtonClicked(object sender, EventArgs e)
+		{
+			Detail = new NavigationPage(new SelectionPage { BindingContext = null });
 			IsPresented = false;
 		}
 	}
