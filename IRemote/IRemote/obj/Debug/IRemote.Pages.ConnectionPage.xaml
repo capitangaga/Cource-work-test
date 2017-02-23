@@ -12,7 +12,7 @@
 					<DataTemplate>
 						<ViewCell>
 							<StackLayout>
-								<Label Text="{Binding}" TextColor="#37474F" HorizontalTextAlignment="Start" VerticalTextAlignment="Center" Margin="25,10,0,0" />
+								<Label Text="{Binding}" TextColor="#37474F" HorizontalTextAlignment="Start" VerticalTextAlignment="Center" Margin="25,10,25,0" />
 							</StackLayout>
 						</ViewCell>
 					</DataTemplate>
