@@ -7,28 +7,28 @@
       <File FileName="Droid/BlueConnection.cs" Line="7" Column="24" />
       <File FileName="Droid/MainActivity.cs" Line="40" Column="1" />
       <File FileName="IRemote/App.xaml" Line="6" Column="15" />
-      <File FileName="IRemote/App.xaml.cs" Line="27" Column="4" />
-      <File FileName="IRemote/Pages/ConnectionPage.xaml" Line="25" Column="15" />
+      <File FileName="IRemote/App.xaml.cs" Line="66" Column="22" />
+      <File FileName="IRemote/Pages/ConnectionPage.xaml" Line="22" Column="3" />
       <File FileName="IRemote/Pages/IRemotePage.xaml" Line="23" Column="15" />
       <File FileName="IRemote/Pages/IRemotePage.xaml.cs" Line="9" Column="51" />
       <File FileName="IRemote/Pages/ConnectionPage.xaml.cs" Line="13" Column="58" />
       <File FileName="IRemote/Remotes/RemoteToSave.cs" Line="6" Column="2" />
       <File FileName="IRemote/Remotes/RemoteButton.cs" Line="18" Column="3" />
       <File FileName="IRemote/obj/Debug/IRemote.Pages.IRemotePage.xaml.g.cs" Line="1" Column="1" />
-      <File FileName="IRemote/Pages/MasterPage.xaml" Line="8" Column="101" />
-      <File FileName="IRemote/Pages/MasterPage.xaml.cs" Line="27" Column="2" />
+      <File FileName="IRemote/Pages/MasterPage.xaml" Line="12" Column="15" />
+      <File FileName="IRemote/Pages/MasterPage.xaml.cs" Line="21" Column="83" />
       <File FileName="IRemote/obj/Debug/IRemote.Pages.MasterPage.xaml.g.cs" Line="1" Column="1" />
       <File FileName="IRemote/obj/Debug/IRemote.App.xaml.g.cs" Line="1" Column="1" />
-      <File FileName="IRemote/Pages/MainPage.cs" Line="12" Column="44" />
+      <File FileName="IRemote/Pages/MainPage.cs" Line="16" Column="1" />
       <File FileName="IRemote/packages.config" Line="1" Column="1" />
-      <File FileName="IRemote/Pages/HomePage.xaml" Line="10" Column="28" />
-      <File FileName="IRemote/Pages/HomePage.xaml.cs" Line="36" Column="6" />
+      <File FileName="IRemote/Pages/HomePage.xaml" Line="10" Column="15" />
+      <File FileName="IRemote/Pages/HomePage.xaml.cs" Line="24" Column="4" />
       <File FileName="IRemote/Pages/AboutInHome.txt" Line="1" Column="1" />
       <File FileName="IRemote/obj/Debug/IRemote.Pages.HomePage.xaml.g.cs" Line="1" Column="1" />
       <File FileName="IRemote/IForNative/IDbFileProvider.cs" Line="6" Column="44" />
       <File FileName="Droid/DbFileProvider.cs" Line="6" Column="1" />
       <File FileName="IRemote/Remotes/Remote.cs" Line="11" Column="29" />
-      <File FileName="IRemote/Data/RemotesDatabase.cs" Line="1" Column="1" />
+      <File FileName="IRemote/Data/RemotesDatabase.cs" Line="120" Column="4" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />

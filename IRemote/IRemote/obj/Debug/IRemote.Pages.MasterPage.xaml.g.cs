@@ -29,12 +29,16 @@ namespace IRemote {
         private global::Xamarin.Forms.Button HelpButton;
         
         [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
+        private global::Xamarin.Forms.Button ShowAllButton;
+        
+        [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
         private void InitializeComponent() {
             this.LoadFromXaml(typeof(MasterPage));
             LogoView = this.FindByName <global::Xamarin.Forms.ContentView>("LogoView");
             LogoLabel = this.FindByName <global::Xamarin.Forms.Label>("LogoLabel");
             ConnectButton = this.FindByName <global::Xamarin.Forms.Button>("ConnectButton");
             HelpButton = this.FindByName <global::Xamarin.Forms.Button>("HelpButton");
+            ShowAllButton = this.FindByName <global::Xamarin.Forms.Button>("ShowAllButton");
         }
     }
 }

@@ -7,6 +7,7 @@
 			</ContentView>
 			<Button x:Name="ConnectButton" Text="Connect manager" BackgroundColor="White" TextColor="#546E7A" />
 			<Button x:Name="HelpButton" Text="Help and about" BackgroundColor="White" TextColor="#546E7A" />
+			<Button x:Name="ShowAllButton" Text="Show all remotes" BackgroundColor="White" TextColor="#546E7A" />
 		</StackLayout>
 	</ContentPage.Content>
 </ContentPage>
