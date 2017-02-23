@@ -5,9 +5,9 @@ using Xamarin.Forms;
 
 namespace IRemote
 {
-	public partial class AddNewPage : ContentPage
+	public partial class MasterPage : ContentPage
 	{
-		public AddNewPage()
+		public MasterPage()
 		{
 			InitializeComponent();
 		}
