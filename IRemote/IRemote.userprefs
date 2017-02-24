@@ -1,14 +1,8 @@
 ﻿<Properties StartupConfiguration="{32449358-AD42-463D-B44C-87AA3FF14ACE}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="IRemote/obj/Debug/IRemote.Pages.SelectionPage.xaml.g.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="IRemote/Pages/ConnectionPage.xaml">
     <Files>
-      <File FileName="IRemote/IForNative/IBlueConnection.cs" Line="9" Column="18" />
-      <File FileName="IRemote/IForNative/IMakeToast.cs" Line="2" Column="1" />
-      <File FileName="Droid/MakeToast.cs" Line="5" Column="21" />
-      <File FileName="Droid/BlueConnection.cs" Line="7" Column="24" />
-      <File FileName="Droid/MainActivity.cs" Line="40" Column="1" />
-      <File FileName="IRemote/App.xaml" Line="6" Column="15" />
       <File FileName="IRemote/App.xaml.cs" Line="66" Column="22" />
-      <File FileName="IRemote/Pages/ConnectionPage.xaml" Line="10" Column="49" />
+      <File FileName="IRemote/Pages/ConnectionPage.xaml" Line="15" Column="132" />
       <File FileName="IRemote/Pages/IRemotePage.xaml" Line="23" Column="15" />
       <File FileName="IRemote/Pages/IRemotePage.xaml.cs" Line="9" Column="51" />
       <File FileName="IRemote/Pages/ConnectionPage.xaml.cs" Line="13" Column="58" />
@@ -27,11 +21,11 @@
       <File FileName="IRemote/obj/Debug/IRemote.Pages.HomePage.xaml.g.cs" Line="1" Column="1" />
       <File FileName="IRemote/IForNative/IDbFileProvider.cs" Line="6" Column="44" />
       <File FileName="Droid/DbFileProvider.cs" Line="6" Column="1" />
-      <File FileName="IRemote/Remotes/Remote.cs" Line="10" Column="34" />
+      <File FileName="IRemote/Remotes/Remote.cs" Line="15" Column="36" />
       <File FileName="IRemote/Data/RemotesDatabase.cs" Line="33" Column="4" />
-      <File FileName="IRemote/Pages/SelectionPage.xaml" Line="19" Column="15" />
-      <File FileName="IRemote/Pages/SelectionPage.xaml.cs" Line="40" Column="36" />
-      <File FileName="IRemote/obj/Debug/IRemote.Pages.SelectionPage.xaml.g.cs" Line="24" Column="1" />
+      <File FileName="IRemote/Pages/SelectionPage.xaml" Line="13" Column="139" />
+      <File FileName="IRemote/Pages/SelectionPage.xaml.cs" Line="32" Column="64" />
+      <File FileName="IRemote/obj/Debug/IRemote.Pages.SelectionPage.xaml.g.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />

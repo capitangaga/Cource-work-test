@@ -39,5 +39,6 @@ namespace IRemote
 			await App.Database.SaveRemoteAsync(newRemote);
 			// TODO Navigation to new Remote
 		}
+
 	}
 }

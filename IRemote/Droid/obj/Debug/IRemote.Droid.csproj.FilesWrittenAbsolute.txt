@@ -36,3 +36,4 @@
 /Users/kirillgolowko/Repos/cw_1/IRemote/Droid/bin/Debug/SQLite-net.dll
 /Users/kirillgolowko/Repos/cw_1/IRemote/Droid/bin/Debug/IRemote.dll
 /Users/kirillgolowko/Repos/cw_1/IRemote/Droid/bin/Debug/IRemote.dll.mdb
+/Users/kirillgolowko/Repos/cw_1/IRemote/Droid/bin/Debug/Newtonsoft.Json.dll
