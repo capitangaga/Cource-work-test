@@ -1,7 +1,7 @@
 ﻿using System;
 namespace IRemote
 {
-	public class Remote
+	public partial class Remote
 	{
 		public Remote()
 		{

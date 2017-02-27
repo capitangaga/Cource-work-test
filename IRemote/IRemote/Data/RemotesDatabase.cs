@@ -26,7 +26,12 @@ namespace IRemote
 			{
 				{
 					foreach (RemoteToSave rem in JSONRemotes)
-						remotes.Add(JsonConvert.DeserializeObject<Remote>(rem.JSONRemote));
+					{
+						Remote nextRemote = JsonConvert.DeserializeObject<Remote>(rem.JSONRemote);
+						nextRemote.ID = rem.ID;
+						nextRemote.Category = rem.Category;
+						remotes.Add(nextRemote);
+					}
 				}
 			});
 			return remotes;
@@ -44,8 +49,15 @@ namespace IRemote
 			{
 				{
 					foreach (RemoteToSave rem in JSONRemotes)
+					{
 						if (rem.Category == category)
-							remotes.Add(JsonConvert.DeserializeObject<Remote>(rem.JSONRemote));
+						{
+							Remote nextRemote = JsonConvert.DeserializeObject<Remote>(rem.JSONRemote);
+							nextRemote.ID = rem.ID;
+							nextRemote.Category = rem.Category;
+							remotes.Add(nextRemote);
+						}
+					}
 				}
 			});
 			return remotes;
@@ -62,7 +74,8 @@ namespace IRemote
 			await Task.Run(() =>
 			{
 				foreach (RemoteToSave rem in JSONRemotes)
-					categories.Add(rem.Category);
+					if (String.IsNullOrWhiteSpace(rem.Category))
+						categories.Add(rem.Category);
 				foreach (string cat in categories)
 					categoriesList.Add(cat);
 			});
