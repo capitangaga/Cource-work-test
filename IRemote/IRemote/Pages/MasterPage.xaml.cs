@@ -24,6 +24,13 @@ namespace IRemote
 
 		}
 
+		protected async override void OnAppearing()
+		{
+			base.OnAppearing();
+
+			CategoryList.ItemsSource = await App.Database.GetCategoriesAsync();
+		}
+
 		public event CategorySelectedEventHandler CategorySelected;
 		public event EventHandler HelpButtonClicked;
 		public event EventHandler ConnectButtonClicked;

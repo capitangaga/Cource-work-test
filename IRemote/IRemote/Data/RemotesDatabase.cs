@@ -74,7 +74,7 @@ namespace IRemote
 			await Task.Run(() =>
 			{
 				foreach (RemoteToSave rem in JSONRemotes)
-					if (String.IsNullOrWhiteSpace(rem.Category))
+					if (!String.IsNullOrWhiteSpace(rem.Category))
 						categories.Add(rem.Category);
 				foreach (string cat in categories)
 					categoriesList.Add(cat);
