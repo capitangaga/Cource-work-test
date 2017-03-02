@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Diagnostics;
 
 using Xamarin.Forms;
 
@@ -15,6 +16,7 @@ namespace IRemote
 			Master = master;
 			master.ConnectButtonClicked += OnConnectButtonClicked;
 			master.ShowAllButtonClicked += OnShowAllButtonClicked;
+			Debug.WriteLine("\u23FB");
 		}
 
 		public void OnConnectButtonClicked(object sender, EventArgs e)

@@ -41,6 +41,9 @@
     <EmbeddedResource Include="Pages\SelectionPage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
+    <EmbeddedResource Include="Pages\RemotePage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App.xaml.cs">
@@ -66,6 +69,10 @@
     <Compile Include="Data\RemotesDatabase.cs" />
     <Compile Include="Pages\SelectionPage.xaml.cs">
       <DependentUpon>SelectionPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Remotes\DefaulRemote.cs" />
+    <Compile Include="Pages\RemotePage.xaml.cs">
+      <DependentUpon>RemotePage.xaml</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>

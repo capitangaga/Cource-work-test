@@ -13,6 +13,7 @@ namespace IRemote
 		{
 			database = new SQLiteAsyncConnection(path);
 			database.CreateTableAsync<RemoteToSave>().Wait();
+			//database.DropTableAsync<RemoteToSave>().Wait();
 		}
 		/// <summary>
 		/// Gets all the remotes from database

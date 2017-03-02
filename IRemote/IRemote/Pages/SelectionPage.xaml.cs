@@ -11,7 +11,7 @@ namespace IRemote
 		{
 			InitializeComponent();
 
-
+			RemotesList.ItemSelected += OnRemoteSelected;
 
 
 		}
@@ -28,17 +28,26 @@ namespace IRemote
 				Title = BindingContext as string;
 				RemotesList.ItemsSource = await App.Database.GetRemotesWithCategoryAsync(BindingContext as string);
 			}
+
 		}
 		protected async void AddNewClicked(object sender, EventArgs e)
 		{
-			Remote newRemote = new Remote
+			Remote newRemote = new Remote(true)
 			{
 				Name = "New Remote",
 				Category = BindingContext == null ? "" : BindingContext as string
 			};
-			await App.Database.SaveRemoteAsync(newRemote);
-			// TODO Navigation to new Remote
+			newRemote.ID = await App.Database.SaveRemoteAsync(newRemote);
+			await Navigation.PushAsync(new RemotePage { BindingContext = newRemote });
 		}
+
+		protected async void OnRemoteSelected(object sender, SelectedItemChangedEventArgs e)
+		{
+
+			await Navigation.PushAsync(new RemotePage { BindingContext = e.SelectedItem as Remote });
+
+		}
+
 
 	}
 }
