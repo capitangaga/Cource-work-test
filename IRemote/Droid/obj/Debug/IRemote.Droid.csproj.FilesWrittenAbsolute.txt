@@ -37,3 +37,4 @@
 /Users/kirillgolowko/Repos/cw_1/IRemote/Droid/bin/Debug/IRemote.dll
 /Users/kirillgolowko/Repos/cw_1/IRemote/Droid/bin/Debug/IRemote.dll.mdb
 /Users/kirillgolowko/Repos/cw_1/IRemote/Droid/bin/Debug/Newtonsoft.Json.dll
+/Users/kirillgolowko/Repos/cw_1/IRemote/Droid/obj/Debug/MonoAndroid,Version=v7.1.AssemblyAttribute.cs

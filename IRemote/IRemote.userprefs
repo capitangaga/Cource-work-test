@@ -1,41 +1,40 @@
 ﻿<Properties StartupConfiguration="{32449358-AD42-463D-B44C-87AA3FF14ACE}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="IRemote/App.xaml.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="IRemote/Pages/RemotePage.xaml.cs">
     <Files>
-      <File FileName="IRemote/App.xaml.cs" Line="25" Column="34" />
-      <File FileName="IRemote/Pages/ConnectionPage.xaml" Line="15" Column="132" />
+      <File FileName="IRemote/App.xaml.cs" Line="25" Column="32" />
       <File FileName="IRemote/Pages/IRemotePage.xaml" Line="23" Column="15" />
       <File FileName="IRemote/Pages/IRemotePage.xaml.cs" Line="9" Column="51" />
       <File FileName="IRemote/Pages/ConnectionPage.xaml.cs" Line="13" Column="58" />
       <File FileName="IRemote/Remotes/RemoteToSave.cs" Line="6" Column="2" />
       <File FileName="IRemote/Remotes/RemoteButton.cs" Line="18" Column="3" />
       <File FileName="IRemote/obj/Debug/IRemote.Pages.IRemotePage.xaml.g.cs" Line="1" Column="1" />
-      <File FileName="IRemote/Pages/MasterPage.xaml" Line="10" Column="102" />
       <File FileName="IRemote/Pages/MasterPage.xaml.cs" Line="30" Column="4" />
       <File FileName="IRemote/obj/Debug/IRemote.Pages.MasterPage.xaml.g.cs" Line="1" Column="1" />
       <File FileName="IRemote/obj/Debug/IRemote.App.xaml.g.cs" Line="1" Column="1" />
-      <File FileName="IRemote/Pages/MainPage.cs" Line="19" Column="30" />
+      <File FileName="IRemote/Pages/MainPage.cs" Line="19" Column="4" />
       <File FileName="IRemote/packages.config" Line="1" Column="1" />
-      <File FileName="IRemote/Pages/HomePage.xaml" Line="5" Column="20" />
-      <File FileName="IRemote/Pages/HomePage.xaml.cs" Line="24" Column="95" />
+      <File FileName="IRemote/Pages/HomePage.xaml.cs" Line="24" Column="104" />
       <File FileName="IRemote/Pages/AboutInHome.txt" Line="1" Column="1" />
       <File FileName="IRemote/obj/Debug/IRemote.Pages.HomePage.xaml.g.cs" Line="1" Column="1" />
       <File FileName="IRemote/IForNative/IDbFileProvider.cs" Line="6" Column="44" />
       <File FileName="Droid/DbFileProvider.cs" Line="6" Column="1" />
       <File FileName="IRemote/Remotes/Remote.cs" Line="11" Column="37" />
-      <File FileName="IRemote/Data/RemotesDatabase.cs" Line="16" Column="6" />
-      <File FileName="IRemote/Pages/SelectionPage.xaml" Line="3" Column="2" />
-      <File FileName="IRemote/Pages/SelectionPage.xaml.cs" Line="32" Column="1" />
+      <File FileName="IRemote/Data/RemotesDatabase.cs" Line="94" Column="1" />
+      <File FileName="IRemote/Pages/SelectionPage.xaml.cs" Line="10" Column="3" />
       <File FileName="IRemote/obj/Debug/IRemote.Pages.SelectionPage.xaml.g.cs" Line="1" Column="1" />
-      <File FileName="IRemote/Remotes/DefaulRemote.cs" Line="48" Column="5" />
-      <File FileName="IRemote/Pages/RemotePage.xaml" Line="9" Column="15" />
-      <File FileName="IRemote/Pages/RemotePage.xaml.cs" Line="14" Column="3" />
+      <File FileName="IRemote/Remotes/DefaulRemote.cs" Line="16" Column="30" />
+      <File FileName="IRemote/Pages/RemotePage.xaml.cs" Line="52" Column="57" />
       <File FileName="IRemote/App.xaml" Line="1" Column="1" />
+      <File FileName="IRemote/Pages/TabbedRemote.cs" Line="19" Column="115" />
+      <File FileName="IRemote/obj/Debug/IRemote.Pages.RemotePage.xaml.g.cs" Line="24" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.IRemote HideGettingStarted="True" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.ItemProperties.IRemote.Droid PreferredExecutionTarget="Android.Android_Accelerated_x86" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.IRemote.Droid PreferredExecutionTarget="Android.AndroidV23x86" />
 </Properties>
