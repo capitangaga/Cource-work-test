@@ -29,3 +29,8 @@
 /Users/kirillgolowko/Repos/cw_1/IRemote/IRemote/obj/Debug/IRemote.Pages.SelectionPage.xaml.g.cs
 /Users/kirillgolowko/Repos/cw_1/IRemote/IRemote/obj/Debug/IRemote.Pages.RemotePage.xaml
 /Users/kirillgolowko/Repos/cw_1/IRemote/IRemote/obj/Debug/IRemote.Pages.RemotePage.xaml.g.cs
+/Users/kirillgolowko/Repos/cw_1/IRemote/IRemote/obj/Debug/.NETPortable,Version=v4.6,Profile=Profile44.AssemblyAttribute.cs
+/Users/kirillgolowko/Repos/cw_1/IRemote/IRemote/obj/Debug/.NETPortable,Version=v5.0.AssemblyAttribute.cs
+/Users/kirillgolowko/Repos/cw_1/IRemote/IRemote/obj/Debug/.NETPortable,Version=v4.6,Profile=Profile151.AssemblyAttribute.cs
+/Users/kirillgolowko/Repos/cw_1/IRemote/IRemote/obj/Debug/IRemote.Pages.EditPage.xaml
+/Users/kirillgolowko/Repos/cw_1/IRemote/IRemote/obj/Debug/IRemote.Pages.EditPage.xaml.g.cs

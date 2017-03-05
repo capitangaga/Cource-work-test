@@ -35,6 +35,7 @@ namespace IRemote
 					BorderRadius = 0,
 					//Margin = new Thickness(-1, -1, -1, -1),
 					BackgroundColor = Color.FromHex("EEEEEE"),
+					BindingContext = bindedRemote.Buttons[remoteButtonNumber]
 				};
 				switch (remoteButtonNumber)
 				{
@@ -73,6 +74,10 @@ namespace IRemote
 				await App.Database.RemoveRemoteAsync(BindingContext as Remote);
 				await Navigation.PopAsync();
 			}
+		}
+		protected async void OnEditClicked(object sender, EventArgs e)
+		{
+			await Navigation.PushAsync(new EditPage { BindingContext = this.BindingContext });
 		}
 	}
 }
