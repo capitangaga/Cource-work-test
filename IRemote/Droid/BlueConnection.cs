@@ -13,7 +13,7 @@ namespace IRemote.Droid
 	{
 		private BluetoothAdapter adapter;
 		private MakeToast toster;
-		private Task connectTask;
+
 		private BluetoothDevice device;
 		private List<BluetoothDevice> bondedDevices;
 
