@@ -20,6 +20,12 @@ namespace IRemote {
         private global::Xamarin.Forms.Entry RemoteNameEntery;
         
         [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
+        private global::Xamarin.Forms.Entry CategoryEntery;
+        
+        [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
+        private global::Xamarin.Forms.Picker CategoryPicker;
+        
+        [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
         private global::Xamarin.Forms.Grid MainGrid;
         
         [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
@@ -35,6 +41,8 @@ namespace IRemote {
         private void InitializeComponent() {
             this.LoadFromXaml(typeof(EditPage));
             RemoteNameEntery = this.FindByName <global::Xamarin.Forms.Entry>("RemoteNameEntery");
+            CategoryEntery = this.FindByName <global::Xamarin.Forms.Entry>("CategoryEntery");
+            CategoryPicker = this.FindByName <global::Xamarin.Forms.Picker>("CategoryPicker");
             MainGrid = this.FindByName <global::Xamarin.Forms.Grid>("MainGrid");
             AdditionalGrid = this.FindByName <global::Xamarin.Forms.Grid>("AdditionalGrid");
             NumbersGrid = this.FindByName <global::Xamarin.Forms.Grid>("NumbersGrid");

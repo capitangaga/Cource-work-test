@@ -13,9 +13,11 @@ namespace IRemote
 		{
 			InitializeComponent();
 			RemoteNameEntery.TextChanged += OnRemoteNameChanged;
+			CategoryEntery.TextChanged += CategoryEntery_TextChanged;
+			CategoryPicker.SelectedIndexChanged += CategoryPicker_SelectedIndexChanged;
 		}
 
-		protected override void OnAppearing()
+		protected async override void OnAppearing()
 		{
 			base.OnAppearing();
 			bindedRemote = BindingContext as Remote;
@@ -27,6 +29,13 @@ namespace IRemote
 			GenerateGrid(NumbersGrid, 44, 59);
 			SetAllButtonsList();
 			GenerateCustomKeysEditor();
+			CategoryPicker.Items.Clear();
+			CategoryEntery.Text = bindedRemote.Category;
+			List<string> categories = await App.Database.GetCategoriesAsync();
+			foreach (string cat in categories)
+			{
+				CategoryPicker.Items.Add(cat);
+			}
 		}
 
 		protected void OnRemoteNameChanged(object sennder, EventArgs e)
@@ -50,6 +59,24 @@ namespace IRemote
 		{
 			await App.Database.SaveRemoteAsync(bindedRemote);
 			App.ToastMaker.ShowMessage($"Remote {bindedRemote.Name} saved", false);
+		}
+
+		void CategoryPicker_SelectedIndexChanged(object sender, EventArgs e)
+		{
+			if (CategoryPicker.SelectedIndex >= 0)
+			{
+				CategoryEntery.Text = CategoryPicker.Items[CategoryPicker.SelectedIndex];
+				CategoryPicker.SelectedIndex = -1;
+			}
+		}
+
+		void CategoryEntery_TextChanged(object sender, TextChangedEventArgs e)
+		{
+			if (CategoryEntery.Text.Length > 24)
+			{
+				CategoryEntery.Text = CategoryEntery.Text.Substring(0, 24);
+			}
+			bindedRemote.Category = CategoryEntery.Text;
 		}
 
 		private void GenerateGrid(Grid grid, int istart, int ifinish)

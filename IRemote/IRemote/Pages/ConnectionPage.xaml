@@ -1,7 +1,8 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="IRemote.ConnectionPage" Title="Connect to IRemote">
 	<ContentPage.ToolbarItems>
-		<ToolbarItem Text="Connect" />
+		<ToolbarItem Text="Connect" Clicked = "OnConnectClicked"/>
+		<ToolbarItem Text="Disconnect" Clicked = "OnDisconnectClicked"/>
 	</ContentPage.ToolbarItems>
 	<ContentPage.Content>
 		<StackLayout>
@@ -18,6 +19,8 @@
 					</DataTemplate>
 				</ListView.ItemTemplate>
 			</ListView>
+			<Label x:Name = "status" Margin="20,10,0,20" FontSize="18">
+			</Label>
 		</StackLayout>
 	</ContentPage.Content>
 </ContentPage>

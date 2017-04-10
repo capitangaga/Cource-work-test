@@ -20,9 +20,13 @@ namespace IRemote {
         private global::Xamarin.Forms.ListView Devices;
         
         [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
+        private global::Xamarin.Forms.Label status;
+        
+        [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
         private void InitializeComponent() {
             this.LoadFromXaml(typeof(ConnectionPage));
             Devices = this.FindByName <global::Xamarin.Forms.ListView>("Devices");
+            status = this.FindByName <global::Xamarin.Forms.Label>("status");
         }
     }
 }

@@ -20,7 +20,7 @@ namespace IRemote
 
 			ConnectButton.Clicked += OnNavigation;
 			ShowAllButton.Clicked += OnNavigation;
-
+			CategoryList.ItemTapped += OnNavigation;
 
 		}
 
@@ -46,8 +46,15 @@ namespace IRemote
 
 			if (sender == ShowAllButton && ShowAllButtonClicked != null)
 				ShowAllButtonClicked(this, EventArgs.Empty);
+			if (sender == CategoryList && CategorySelected != null)
+			{
+				CategorySelected(this, new CategorySelectedEventArgs((e as ItemTappedEventArgs).Item as string));
+			}
 
-			//TODO for category selected
+		}
+		public async void UpdateCategories()
+		{
+			CategoryList.ItemsSource = await App.Database.GetCategoriesAsync();
 		}
 	}
 
@@ -57,6 +64,7 @@ namespace IRemote
 		{
 			Category = category;
 		}
-		string Category { get; }
+		public string Category { get; }
 	}
+
 }

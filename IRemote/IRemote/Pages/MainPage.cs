@@ -16,7 +16,13 @@ namespace IRemote
 			Master = master;
 			master.ConnectButtonClicked += OnConnectButtonClicked;
 			master.ShowAllButtonClicked += OnShowAllButtonClicked;
+			IsPresentedChanged += MainPage_IsPresentedChanged;
+			master.CategorySelected += OnCategorySelected;
+		}
 
+		void MainPage_IsPresentedChanged(object sender, EventArgs e)
+		{
+			master.UpdateCategories();
 		}
 
 		public void OnConnectButtonClicked(object sender, EventArgs e)
@@ -27,6 +33,12 @@ namespace IRemote
 		public void OnShowAllButtonClicked(object sender, EventArgs e)
 		{
 			Detail = new NavigationPage(new SelectionPage { BindingContext = null });
+			IsPresented = false;
+		}
+
+		void OnCategorySelected(object sender, CategorySelectedEventArgs e)
+		{
+			Detail = new NavigationPage(new SelectionPage { BindingContext = e.Category });
 			IsPresented = false;
 		}
 	}
